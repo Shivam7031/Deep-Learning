@@ -19,38 +19,7 @@
   <small>Deep Learning is a subset of Machine Learning, which is a subset of Artificial Intelligence.</small>
 </div>
 
----
 
-## ✨ Live Interactive Tree of Deep Learning
-
-<div align="center">
-  <details>
-    <summary><strong>📂 Artificial Intelligence</strong></summary>
-    <ul>
-      <li>
-        <details>
-          <summary><strong>🤖 Machine Learning</strong></summary>
-          <ul>
-            <li>
-              <details>
-                <summary><strong>🧠 Deep Learning</strong></summary>
-                <ul>
-                  <li>🔸 Feedforward Neural Networks</li>
-                  <li>🔸 Convolutional Neural Networks (CNN)</li>
-                  <li>🔸 Recurrent Neural Networks (RNN)</li>
-                  <li>🔸 Generative Adversarial Networks (GAN)</li>
-                  <li>🔸 Transformers</li>
-                </ul>
-              </details>
-            </li>
-          </ul>
-        </details>
-      </li>
-    </ul>
-  </details>
-</div>
-
----
 
 ## 📚 Tech Stack Used
 
@@ -74,6 +43,157 @@
 </table>
 
 ---
+<h1 align="center">
+  🌐 Deep Learning Playground  
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Inspired-brightgreen?style=for-the-badge&logo=OpenAI&logoColor=white">
+  <img src="https://img.shields.io/badge/Machine_Learning-Essential-blue?style=for-the-badge&logo=scikit-learn">
+  <img src="https://img.shields.io/badge/Deep_Learning-Powered-ff69b4?style=for-the-badge&logo=pytorch">
+</p>
+
+---
+
+<div align="center">
+  <img src="assets/brain_animation.gif" width="300px" alt="Neural Network Animation"/>
+  <p><em>Deep Learning is a subset of Machine Learning, which itself is a subset of Artificial Intelligence.</em></p>
+</div>
+
+---
+
+## 🚀 Technologies Used in Deep Learning
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,keras,numpy,pandas,jupyter" />
+</div>
+
+---
+
+## 🧠 Relationship Between AI → ML → DL
+
+<details>
+  <summary>Click to Visualize</summary>
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/rajshah4/image-host/main/ai-ml-dl-circle.png" width="400px"/>
+    <p><small><strong>AI ⊃ ML ⊃ DL</strong>: Deep Learning is part of the broader field of Machine Learning, which falls under the umbrella of Artificial Intelligence.</small></p>
+  </div>
+</details>
+
+---
+
+## 🎥 Live Component Preview
+
+> This repository includes interactive demos (hosted locally or in Colab) that show:
+
+- Real-time object detection
+- Image classification
+- GAN image generation
+- Neural network training visualization
+
+<a href="https://colab.research.google.com/github/yourusername/deep-learning-repo/blob/main/notebooks/demo.ipynb" target="_blank">
+  <img src="https://img.shields.io/badge/Open%20in%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"/>
+</a>
+
+---
+
+## 🔬 Live Neural Network Visualizer
+
+> Embedded brain animation powered by CSS & JavaScript. Full screen demo below:
+
+[🧠 Live Neural Visualizer →](https://yourusername.github.io/deep-learning-repo/brain.html)
+
+![Brain Visualizer](assets/neural-network-preview.gif)
+
+---
+
+## 📂 Repository Structure
+
+
+---
+
+## 📚 References
+
+- [Deep Learning with Python – François Chollet](https://www.manning.com/books/deep-learning-with-python)
+- [Stanford CS231n](http://cs231n.stanford.edu/)
+- [MIT Deep Learning for Self-Driving Cars](https://selfdrivingcars.mit.edu/)
+
+---
+
+## 🙌 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/yourusername" width="80px;" alt="Shivam"/>
+      <br /><sub><b>Shivam Pandey</b></sub>
+    </td>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/anotheruser" width="80px;" alt="Teammate"/>
+      <br /><sub><b>Co-Author</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+<h3 align="center">⭐ Star this repo if you like the effort!</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Neural Brain Live Visual</title>
+  <link rel="stylesheet" href="brain.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="brain">
+      <div class="pulse"></div>
+    </div>
+    <h2>Deep Learning Neural Network</h2>
+  </div>
+  <script src="brain.js"></script>
+</body>
+</html>
+body {
+  background: #0f0f0f;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.container {
+  text-align: center;
+}
+
+.brain {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, #e91e63, #8e24aa);
+  border-radius: 50%;
+  position: relative;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px #e91e63;
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px #e91e63;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0px #e91e63;
+  }
+}
+// Add future enhancements: e.g., neuron click animation, firing signals etc.
+console.log("Neural Network Animation Active");
 
 ## 🧪 Projects Showcase
 
